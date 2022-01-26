@@ -7,8 +7,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "RobotoCondensed", sans-serif;
-  font-size: 25px;
-  line-height: 33px;
+  font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
 }
 
@@ -70,6 +70,8 @@ button {
   background-color: transparent;
   cursor: pointer;
   color: inherit;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -101,7 +103,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }

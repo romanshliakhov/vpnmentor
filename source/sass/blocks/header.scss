@@ -1,3 +1,15 @@
 .header {
+  background: #fff;
+  position: relative;
+  border-top: 3px solid #1d69a7;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+}
 
+@media (min-width: 320px) {
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+  }
 }

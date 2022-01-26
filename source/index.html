@@ -18,33 +18,246 @@
       <div class="header__inner">
         <a class="header__logo logo" href="#">
           <picture>
-              <img class='header__logo-img logo' width='172' height='43' src='img/logo.svg' alt=''>
+              <img class='header__logo-img logo' width='172' height='43' src='img/logo.svg' alt='VPN Mentor logo'>
           </picture>
         </a>
 
         <nav class="header__nav nav">
           <ul class="nav__list">
             <li class="nav__list-item">
+              <img class='nav__item-svg' width='20' height='20' src='img/icon.svg' alt=''>
               <a class="nav__list-link" href="#">Blog</a>
             </li>
             <li class="nav__list-item">
+              <img class='nav__item-svg' width='20' height='20' src='img/icon.svg' alt=''>
               <a class="nav__list-link" href="#">Best VPN</a>
+              <ul class="nav__menu nav__menu--best">
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Best VPNs Overall</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Best VPNs For Mac</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Best VPNs For IOS</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Best VPNs For Torrents</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Best VPNs For Windows</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Best VPNs For Android</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Best VPNs For USA</span>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="nav__list-item">
+              <img class='nav__item-svg' width='20' height='20' src='img/icon.svg' alt=''>
               <a class="nav__list-link" href="#">Tools</a>
+              <ul class="nav__menu nav__menu--tools">
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>VPNs Comparison</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Test The Great China Firewall</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Free IP and WebRTC Leak Test Tool for VPNs + Browsers (2022)</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Bitcoin Rate Converter</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Password Meter</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Secure Password Generator</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>IP Info</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Search by Location</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>TV Ratings Chart - View TV show's ratings breakdown</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>VPN Speed Test Comparison</span>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="nav__list-item">
+              <img class='nav__item-svg' width='20' height='20' src='img/icon.svg' alt=''>
               <a class="nav__list-link" href="#">Coupons</a>
+              <ul class="nav__menu nav__menu--coupons">
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>ExpressVPN Coupons</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>CyberGhost VPN Coupons</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>Private Internet Access Coupons</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>PrivateVPN Coupons</span>
+                  </a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__menu-link" href="#">
+                    <span>HMA VPN Coupons</span>
+                  </a>
+                </li>
+              </ul>
             </li>
-            <li class="nav__list-item">
-              <label>
-                <input type="text">
+            <li class="nav__list-item nav__search">
+              <label class="nav__search-label">
+                <img class='nav__item-svg' width='20' height='20' src='img/search.svg' alt=''>
+                <input class="nav__search-input" type="text" placeholder="Search">
               </label>
             </li>
           </ul>
         </nav>
 
-        <button>English</button>
+        <div class="header__lang lang" data-spollers data-one-spoller>
+          <div class="lang__item">
+            <button tabindex="-1" type="button" data-spoller class="lang__btn"><span>English</span></button>
+            <div class="lang__item-content">
+              <ul class="lang__list">
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Dansk</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Deutsch </a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Español</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Dansk</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Deutsch </a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Español</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+                <li class="lang__list-item">
+                  <a class="lang__list-link" href="№">Français</a>
+                </li>
+              </ul>
+            </div>
+
+        </div>
       </div>
     </div>
   </header>
