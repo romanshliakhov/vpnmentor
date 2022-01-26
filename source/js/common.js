@@ -135,3 +135,13 @@ let _slideToggle = (target, duration = 500) => {
 		return _slideUp(target, duration);
 	}
 };
+
+
+// burger
+let menuBtn = document.querySelector('.header__mobile');
+let menu = document.querySelector('.header__mobile-menu');
+
+menuBtn.addEventListener('click', function(){
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+});
